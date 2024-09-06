@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
-
+/*
 :root{
     font-family: 'Assistant', sans-serif;
     --main-color: black;
@@ -126,7 +126,7 @@ svg {
 }
 
 .btn:hover {
-  transition: 1s ease-in-out;
+  transition: 2s ease-in-out;
   background: transparent;
 }
 
@@ -139,3 +139,39 @@ svg {
   font-size: 16px;
   font-weight: 100;
 }
+  */
+  
+  .list {
+    display: flex;
+  align-items: center;
+  flex-flow: column;
+  }
+  .prod-card1 {
+  display: flex;
+
+  }
+.butt1{
+ 
+  
+}
+.butt1 , .text {
+  display: flex;
+  flex-flow:colum;
+}
+
+  .prod-card2 {
+  
+    
+  }
+  .prod-card3 {
+   
+    
+  }
+  .prod-card4 {
+  
+   
+    
+  }
+  .prod-card5 {
+   
+  }
