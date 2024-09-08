@@ -139,25 +139,18 @@ svg {
   font-size: 16px;
   font-weight: 100;
 }
-  */
   
-  .list {
-    display: flex;
-  align-items: center;
-  flex-flow: column;
-  }
-  .prod-card1 {
-  display: flex;
+  
+  .main {
+    display: gird ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px 200px ;
 
   }
-.butt1{
- 
-  
-}
-.butt1 , .text {
-  display: flex;
-  flex-flow:colum;
-}
+  .prod-card1 {
+
+
+  }
 
   .prod-card2 {
   
@@ -174,4 +167,39 @@ svg {
   }
   .prod-card5 {
    
+  }
+  */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 150px 200px;
+    border-color: black;
+    border: 20px;
+    background-color: pink;
+
+  }
+  .grid-item-3 {
+   
+    background-color: beige;
+  
+   
+  }
+  .grid-item-1 {
+    background-color:aqua;
+
+  }
+  .grid-item-2 {
+    background-color:blue;
+
+  }
+  .grid-item-4 {
+    background-color:blueviolet;
+
+  }
+  .grid-item-5 {
+background-color:brown;
+  }
+  .grid-item-6{
+    background-color:tomato;
+
   }
